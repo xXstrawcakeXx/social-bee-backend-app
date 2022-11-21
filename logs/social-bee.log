@@ -1,0 +1,25 @@
+2022-11-21 12:15:27.990  INFO 9744 --- [restartedMain] com.opensource.SocialBeeApplication      : Starting SocialBeeApplication using Java 11.0.12 on IBUYPOWER-DESKTOP-TCB5VGD with PID 9744 (D:\Work\Code\Java Code\social-bee-fullstack-app\Backend\target\classes started by annan in D:\Work\Code\Java Code\social-bee-fullstack-app\Backend)
+2022-11-21 12:15:27.995  INFO 9744 --- [restartedMain] com.opensource.SocialBeeApplication      : The following 1 profile is active: "production"
+2022-11-21 12:15:28.066  INFO 9744 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-11-21 12:15:28.066  INFO 9744 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-11-21 12:15:29.428  INFO 9744 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-21 12:15:29.519  INFO 9744 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 52 ms. Found 1 JPA repository interfaces.
+2022-11-21 12:15:30.591  INFO 9744 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-11-21 12:15:30.608  INFO 9744 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-21 12:15:30.608  INFO 9744 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-11-21 12:15:30.709  INFO 9744 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-21 12:15:30.709  INFO 9744 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2642 ms
+2022-11-21 12:15:30.867  INFO 9744 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-11-21 12:15:31.583  INFO 9744 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-11-21 12:15:31.593  INFO 9744 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://social-bee-app.c2pxsxitd4mm.us-west-1.rds.amazonaws.com:5432/postgres'
+2022-11-21 12:15:31.753  INFO 9744 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-21 12:15:31.838  INFO 9744 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.11.Final
+2022-11-21 12:15:32.057  INFO 9744 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-21 12:15:32.235  INFO 9744 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-11-21 12:15:33.356  INFO 9744 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-21 12:15:33.364  INFO 9744 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-21 12:15:33.415  WARN 9744 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-21 12:15:34.240  INFO 9744 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-11-21 12:15:34.244  INFO 9744 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-11-21 12:15:34.287  INFO 9744 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-21 12:15:34.298  INFO 9744 --- [restartedMain] com.opensource.SocialBeeApplication      : Started SocialBeeApplication in 7.052 seconds (JVM running for 7.721)
