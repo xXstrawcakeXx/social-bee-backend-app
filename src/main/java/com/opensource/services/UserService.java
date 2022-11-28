@@ -3,9 +3,12 @@ package com.opensource.services;
 import java.util.List;
 import java.util.Optional;
 
+import org.springframework.stereotype.Service;
+
 import com.opensource.models.User;
 import com.opensource.repositories.UserRepository;
 
+@Service
 public class UserService {
 
 	UserRepository uRepo;
@@ -30,16 +33,16 @@ public class UserService {
 		return uRepo.findByEmail(userEmail);
 	}
 	
-	public boolean addUserToFriendList(User adder, User friend) {
-		
-		adder.setFriends(adder.getFriends().add(friend));
-		if (adder.getFriends().contains(friend)) {
-			return true;
-		}
-		
-		
-		return false;
-	}
+//	public boolean followUser(User follower, User following) {
+//		
+//		follower.setFollowing(follower.getFollowing().add(following));
+//		if (follower.getFollowing().contains(following)) {
+//			return true;
+//		}
+//		
+//		
+//		return false;
+//	}
 	
 	
 	
