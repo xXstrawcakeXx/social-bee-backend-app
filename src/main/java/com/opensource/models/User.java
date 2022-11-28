@@ -65,10 +65,17 @@ public class User {
 	
 	@ManyToMany
 	@JoinTable
-			(name="user_friends",
+			(name="user_followers",
 			joinColumns= @JoinColumn(name="users_id"),
-			inverseJoinColumns = @JoinColumn(name="friend_id"))
-	private List<User> friends;
+			inverseJoinColumns = @JoinColumn(name="followers_id"))
+	private List<User> follower;
+	
+	@ManyToMany
+	@JoinTable
+			(name="user_following",
+			joinColumns=@JoinColumn(name="users_id"),
+			inverseJoinColumns=@JoinColumn(name="followings_id"))
+	private List<User> following;
 	
 	private String dms;
 	

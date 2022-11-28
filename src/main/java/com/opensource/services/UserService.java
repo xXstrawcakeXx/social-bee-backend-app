@@ -30,6 +30,16 @@ public class UserService {
 		return uRepo.findByEmail(userEmail);
 	}
 	
+	public boolean addUserToFriendList(User adder, User friend) {
+		
+		adder.setFriends(adder.getFriends().add(friend));
+		if (adder.getFriends().contains(friend)) {
+			return true;
+		}
+		
+		
+		return false;
+	}
 	
 	
 	
