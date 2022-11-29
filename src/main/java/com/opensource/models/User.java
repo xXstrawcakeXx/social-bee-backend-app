@@ -81,7 +81,6 @@ public class User {
 	
 	@OneToMany
 	@JoinTable(
-			name="users_post",
 			joinColumns= @JoinColumn(name="users_id"),
 			inverseJoinColumns = @JoinColumn(name="post_id"))
 	private List<Post> posts;
