@@ -33,6 +33,7 @@ public class UserService {
 		return uRepo.findByEmail(userEmail);
 	}
 	
+
 //	public boolean followUser(User follower, User following) {
 //		
 //		follower.setFollowing(follower.getFollowing().add(following));
@@ -43,7 +44,6 @@ public class UserService {
 //		
 //		return false;
 //	}
-	
 	
 	
 	
